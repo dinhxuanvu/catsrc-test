@@ -6,3 +6,4 @@ spec:
   displayName: CatalogSource Test
   sourceType: grpc
   image: docker.io/dinhxuanvu/catsrc-test:latest
+  poll: "2m"
