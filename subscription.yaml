@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: etcd-etcdoperator.v0.9.0
+spec:
+  channel: alpha
+  installPlanApproval: Automatic
+  name: etcd-update
+  source: catsrc-test
+  sourceNamespace: test-operators
+  startingCSV: etcdoperator.v0.9.0
