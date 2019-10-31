@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   name: etcd-etcdoperator.v0.9.0
 spec:
-  channel: alpha
+  channel: singlenamespace-alpha
   installPlanApproval: Automatic
   name: etcd
   source: catsrc-test
