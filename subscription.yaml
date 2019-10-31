@@ -5,7 +5,7 @@ metadata:
 spec:
   channel: alpha
   installPlanApproval: Automatic
-  name: etcd-update
+  name: etcd
   source: catsrc-test
   sourceNamespace: test-operators
   startingCSV: etcdoperator.v0.9.0
